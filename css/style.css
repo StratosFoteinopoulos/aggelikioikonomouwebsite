@@ -1625,7 +1625,7 @@ a.active{
 
 .personal-photo img{
     border-radius:100% ; 
-    border:3px solid CB60B3;
+    border:3px solid #CB60B3;
     width: 200px;
     height: 200px;
     box-shadow:5px 10px 18px #888888;
@@ -1637,6 +1637,29 @@ font-size: 45px;
 color: white;
 font-weight: 700;
 }
+
+ .resumediv .resume , 
+ .resumediv .coverletter{
+  border:1px solid #CB60B3;
+  border-radius: 4px;
+  padding:10px;
+  color:#CB60B3;
+  transition: ease-out 0.5s;
+  margin:0 10px 0 10px;
+
+}
+
+.resumediv .resume:hover ,
+.resumediv .coverletter:hover{
+    border-color: white;
+    background-color: #CB60B3;
+    color:white;
+    box-shadow: inset 800px 0 0 0 #CB60B3;
+   
+} 
+
+
+
 
 @media (max-width: 575.98px) {
     .footer .footer-info h2 {
@@ -1650,7 +1673,6 @@ font-weight: 700;
         font-size: 16px;
     }
 
-    
     .footer .footer-menu p {
         font-size: 16px;
         line-height: 16px;
