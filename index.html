@@ -65,7 +65,7 @@
                         <div class="hero-content">
                             <div class="hero-text">
                                 <p class="onomazomai">I'm</p>
-                                <h1 class="name">Angeliki Oikonomou</h1>
+                                <h1 class="myname">Angeliki Oikonomou</h1>
                                 <h2 class="job" style="font-size: 22px;">Psychologist - Personal Therapist</h2>
                                 <div class="typed-text">Psychologist, Personal Therapist</div>
                             </div>
@@ -117,6 +117,16 @@
                                     both as an independent counseling therapist as well as α valuable member of
                                     of the Institute of alternative education Exelissin.
                                 </p>
+                               
+                                    <div style="text-align: center" class="resumediv">
+                                        <a download="" href="resume/CVOikonomou2021.pdf"  class="resume">Download Resume</button>
+
+                                        <a download="" href="resume/Oikonomou_cv_presentation.docx"  class="coverletter">Download Cover Letter</button>
+
+                                    </div>
+
+                                  
+                                
                             </div>
                             <!-- <div class="skills">
                                 
@@ -485,7 +495,7 @@
         <script>
             const langEl = document.querySelector('.langWrap');
             const link = document.querySelectorAll('button');
-            const nameEl=document.querySelector('.name');
+            const nameEl=document.querySelector('.myname');
             const jobEl=document.querySelector('.job');
             const job1El=document.querySelector('.job1');
             const onomazomaiEl=document.querySelector('.onomazomai');
@@ -516,7 +526,7 @@
 
               const attr = el.getAttribute('language');
 
-              nameEl.textContent= data[attr].name;
+              nameEl.textContent= data[attr].myname;
               jobEl.textContent= data[attr].job;
               job1El.textContent= data[attr].job1;
               onomazomaiEl.textContent=data[attr].onomazomai;
@@ -546,7 +556,7 @@
             var data = {
                 "english":
                 {
-                    "name":"Angeliki Oikonomou",
+                    "myname":"Angeliki Oikonomou",
                     "job":"Psychologist - Personal Therapist",
                     "job1":"Psychologist",
                     "onomazomai":"I'm",
@@ -574,7 +584,7 @@
                     "specialneedsp":"",
                 },
                 "greek":{
-                    "name":"Αγγελική Οικονόμου",
+                    "myname":"Αγγελική Οικονόμου",
                     "job":"Ψυχολόγος - Ψυχοθεραπεύτρια",
                     "job1":"Ψυχολόγος",
                     "onomazomai":"Ονομάζομαι",
