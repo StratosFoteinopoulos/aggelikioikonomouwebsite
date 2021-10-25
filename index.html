@@ -121,7 +121,12 @@
                                     <div style="text-align: center" class="resumediv">
                                         <a download="" href="resume/CVOikonomou2021.pdf"  class="resume" >Download Resume</a>
 
-                                        <a download="" href="resume/Oikonomou_cv_presentation.docx"  class="coverletter" >Download Cover Letter</a>
+                                        <a download="" href="resume/Oikonomou_cv_presentation.docx"  class="coverletter" style="border:1px solid #CB60B3;
+                                        border-radius: 4px;
+                                        padding:10px;
+                                        color:#CB60B3;
+                                        transition: ease-out 0.5s;
+                                        margin:0 10px 0 10px;">Download Cover Letter</a>
 
                                     </div>
 
@@ -353,23 +358,33 @@
                         <div class="col-md-8">
                             <div class="contact-form" >
                                 <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate" >
+                                <form id="contactForm" action="https://formsubmit.co/fd245a8dc28f82272941f58cc408edb8" method="POST">
+
                                     <div class="control-group"  style="border-bottom: 1px solid #CB60B3;">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
                                         <p class="help-block"></p>
                                     </div>
+
                                     <div class="control-group"  style="border-bottom: 1px solid #CB60B3;">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
                                         <p class="help-block"></p>
                                     </div>
+
+                                    <input type="hidden" name="_captcha" value="false" />
+                                    
+                                    <input type="hidden" name="_next" value="https://stratosfoteinopoulos.github.io/StratosFotWebsite/" />
+
                                     <div class="control-group"  style="border-bottom: 1px solid #CB60B3;">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                        <input type="text" class="form-control" name="" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
                                         <p class="help-block"></p>
                                     </div>
+
+                                   
                                     <div class="control-group"  style="border-bottom: 1px solid #CB60B3;">
-                                        <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                        <textarea class="form-control" type="text" id="message" name="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
                                         <p class="help-block"></p>
                                     </div>
+
                                     <div style="text-align: center;">
                                         <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
                                     </div>
@@ -485,8 +500,8 @@
         <script src="lib/lightbox/js/lightbox.min.js"></script>
         
         <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
+        <!-- <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script> -->
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
