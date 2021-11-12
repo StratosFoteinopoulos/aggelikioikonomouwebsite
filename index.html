@@ -47,8 +47,8 @@
                         <a href="#blog" class="nav-item nav-link Blog">Blog</a>
                         <a href="#contact" class="nav-item nav-link Contact">Contact</a>
                         <div class="langWrap">
-                            <button id="GR"  language="greek">GRE</button>
-                            <button id="ENG"  language="english" class="pressed">ENG</button>
+                            <button id="GR"  language="greek" class="pressed">GRE</button>
+                            <button id="ENG"  language="english" >ENG</button>
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                         <div class="about-content">
                             <div class="section-header text-left">
                                 <p class="learn">Learn About Me</p>
-                                <h2 class="years6">6 Years Experience</h2>
+                                <h2 class="years6">Six Years Experience</h2>
                             </div>
                             <div class="about-text">
                                 <p class="experiencedescription" id="description">
@@ -182,29 +182,17 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service-item">
                             <div class="service-icon">
-                                <i class="fas fa-clipboard-list"></i>
+                                <i class="fa-solid fa-people-pants"></i>
                             </div>
                             <div class="service-text">
-                                <h3 class="psychologicalassesment" id="assessment">Psychological Assessment</h3>
-                                <p class="psychologicalassesmentp" id="assessmenttext">
+                                <h3 class="coupletherapy" id="coupletherapy">Psychological Assessment</h3>
+                                <p class="coupletherapyp" id="coupletherapytext">
                                     Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fas fa-universal-access"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3 class="specialneeds" id="special">Special Educational Needs and Disability Services</h3>
-                                <p class="specialneedsp" id="specialtext">
-                                    Lorem ipsum dolor sit amet elit. Phase nec preti mi. Curabi facilis ornare velit non
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -560,8 +548,8 @@
               oneononep.textContent= data[attr].oneononep;
               grouptherapy.textContent= data[attr].grouptherapy;
               grouptherapyp.textContent= data[attr].grouptherapyp;
-              psychologicalassesment.textContent= data[attr].psychologicalassesment;
-              psychologicalassesmentp.textContent= data[attr].psychologicalassesmentp;
+              coupletherapy.textContent= data[attr].coupletherapy;
+              coupletherapyp.textContent= data[attr].psychologicalassesmentp;
               specialneeds.textContent= data[attr].specialneeds;
               specialneedsp.textContent= data[attr].specialneedsp;
 
@@ -593,10 +581,9 @@
                     "oneononep":"",
                     "grouptherapy":"Group - Family Therapy",
                     "grouptherapyp":"",
-                    "psychologicalassesment":"Psychological Assessment",
-                    "psychologicalassesmentp":"",
-                    "specialneeds":"Special Educational Needs and Disability Services",
-                    "specialneedsp":"",
+                    "coupletherapy":"Couple Therapy",
+                    "coupletherapyp":"",
+                   
                 },
                 "greek":{
                     "myname":"Αγγελική Οικονόμου",
@@ -611,19 +598,31 @@
                     "Blog":"Μπλογκ",
                     "Contact":"Επικοινωνία",
                     "learn":"Λιγα λογια για εμενα",
-                    "years6":"6 Χρόνια εμπειρίας",
+                    "years6":"Έξι Χρόνια εμπειρίας",
                     "experiencedescription":"Αφοσιωμένη Ψυχοθεραπεύτρια με πάνω από έξι χρόνια κλινικής εμπειρίας, παρέχοντας στους ασθενείς μου προηγμένα και αποτελεσματικά προγράμματα θεραπείας."+ 
                                             "Αποφοίτησα από το Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών και σήμερα εργάζομαι τόσο ως ανεξάρτητη ψυχοθεραπεύτρια αλλά και ως πολύτιμο "+
                                             "μέλος του Ινστιτούτου εναλλακτικής εκπαίδευσης, 'Εξελίσσειν'.",
                     "providedservices":"Παρεχόμενες Υπηρεσίες",
                     "oneonone":"Ατομικές Συνεδρίες",
-                    "oneononep":"",
+                    "oneononep":"Στην ατομική ψυχοθεραπεία , ο θεραπευόμενος εστιάζει σε θέματα που τον απασχολούν,"+
+                    "εντοπίζει δυσκολίες , διερευνά νεους/έναλλακτικους τροπους αντιμετώπισης  των θεματων"+
+                    "που έρχονται στο φως, μαθαινει να αναγνωριζει τα συναισθηματα του και να τα εκφραζει. "+
+                    "Μεσα σε ένα περιβαλλον αποδοχής,ασφάλειας και εμπιστοσύνης, ξεκινα το ταξίδι της αυτογνωσιας, "+
+                    "οπου το άτομο μαθαινει να αγαπα τον εαυτο του και ανακαλύπτει τις βαθυτερες δυναμεις τους τις "+
+                    "οποιες αγνοουσε ή πιστευε πως έχουν χαθεί.",
                     "grouptherapy":"Ομαδικές - Οικογενειακές Συνεδρίες",
-                    "grouptherapyp":"",
-                    "psychologicalassesment":"Ψυχολογική Αξιολόγηση",
-                    "psychologicalassesmentp":"",
-                    "specialneeds":"Υπηρεσίες Εκπαίδευσης σε άτομα με ειδικές ανάγκες",
-                    "specialneedsp": "" ,
+                    "grouptherapyp":"Στην ομαδικη θεραπεια οι συνεδρίες γίνονται μεταξύ των μελών μιας ομάδας υπό τον συντονισμό 2 θεραπευτών."+
+                    "Η ομαδα είναι μια μικρογραφία της κοινωνίας μας. Ο τρόπος με τον οποίο αλληλεπιδρούν τα μέλη εντος της  ομάδας "+
+                    "αντικατοπτρίζει το πώς σχετιζονται και σε ολους τους τομεις της καθημερινης ζωης. Στοχος, όπως και στην ατομικη "+
+                    "θεραπεια, είναι η συναισθηματικη διαχειριση και αντιμετώπιση των προβλημάτων του κάθε μέλους. Είναι σημαντικο να "+
+                    "έχει προηγηθει θεραπεια σε ατομικο επιπεδο ώστε να εχει διασφαλιστει η εμπιστοσυνη μεταξυ θεραπευτη και θεραπευομενου.",
+                    "coupletherapy":"Θεραπεία ζευγαριού",
+                    "coupletherapyp":"Ένα ζευγάρι μπορεί να απευθυνθεί σε κάποιον ειδικό για συμβουλευτική ή θεραπεία  εφόσων τα μέλη νιώθουν "+
+                    "ότι δε παίρνουν την ικανοποίηση και την πληρότητα που προσδοκούν μέσα από τη σχέση. Η  εμπειρία του ατόμου στο μικρόκοσμο "+
+                    "της πατρικής του οικογένειας επηρεάζει άμεσα τη διαμόρφωση των προσωπικών σχέσεων στην ενήλικη ζωή.Μέσα από τη "+
+                    "συμβουλευτική ζεύγους εντοπίζονται τα προβλήματα που δυσκολεύουν τη σχέση, κάθε μέλος αναγνωρίζει την ευθύνη "+
+                    "που του αναλογεί με στόχο να ξεκαθαριστεί σε ποιο βαθμό μπορεί να βελτιωθεί η επικοινωνία μεταξύ του ζευγαριού.",
+                    
                                             
              }
 }
