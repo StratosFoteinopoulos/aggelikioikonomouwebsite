@@ -1352,18 +1352,20 @@ a.active{
     width: 100%;
     margin: 45px 0;
     background: white;
+    padding: 10%;
 }
 
-.contact .container-fluid {
+/*.contact .container-fluid {
     background: url(../img/therapistavatar.png) left center no-repeat;
     background-size: contain;
-}
+}*/
 
 .contact .contact-form {
     position: relative;
-    padding: 90px 0 90px 45px;
+    padding: 90px 50px 90px 45px;
     background: white;
     border:1px solid #C8A2C8;
+    border-radius:4px;
 }
 
 .contact .contact-form input {
@@ -1373,6 +1375,7 @@ a.active{
     border-radius: 0;
     border: none;
     border-bottom: 1px solid rgba(256, 256, 256, .5);
+ 
 }
 
 .contact .contact-form textarea {
